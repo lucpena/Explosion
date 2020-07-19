@@ -64,11 +64,11 @@ float fractal_brownian_motion(const Vec3f &x){
 
 Vec3f palette_fire(const float d){
     // when is > 1 , it means it is very strong, same as a "hot" color
-    const Vec3f   yellow(1.3, 1.0, 1.7); 
-    const Vec3f   orange(0.6, 0.0, 1.0);
-    const Vec3f      red(0.0, 0.0, 1.0);
-    const Vec3f darkgray(0.1, 0.1, 0.2);
-    const Vec3f     gray(0.3, 0.3, 0.4);
+    const Vec3f   yellow(1.7, 1.3, 1.0); 
+    const Vec3f   orange(1.0, 0.6, 0.0);
+    const Vec3f      red(1.0, 0.0, 0.0);
+    const Vec3f darkgray(0.2, 0.2, 0.2);
+    const Vec3f     gray(0.4, 0.4, 0.4);
 
     float x = std::max(0.f, std::min(1.f, d));
 
