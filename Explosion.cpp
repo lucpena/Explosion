@@ -59,7 +59,7 @@ float fractal_brownian_motion(const Vec3f &x){
     return f / 0.9375; 
 }
 
-// Fim da definiçao do Perlin Noise
+// End of Perlin Noise definition
 // ------------------------------------------------------------
 
 Vec3f palette_fire(const float d){
@@ -85,7 +85,7 @@ Vec3f palette_fire(const float d){
 }
 
 float signed_distance(const Vec3f &p){
-   //Vec3f s = Vec3f(p).normalize(sphere_radius);
+    //Vec3f s = Vec3f(p).normalize(sphere_radius);
     //float displacement = sin(16 * s.x) * sin(16 * s.y) * sin(16 * s.z) * noise_amplitude;
 
     //float displacement = sin(16 * p.x) * sin(16 * p.y) * sin(16 * p.z) * noise_amplitude;
