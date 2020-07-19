@@ -12,7 +12,7 @@
 const float sphere_radius = 1.5;
 const float noise_amplitude = 1.0;
 
-// Creating the Perlin noise to add ramdomnes to the explosion
+// Creating the Perlin noise to add randomness to the explosion
 
 template <typename T> inline T lerp(const T &v0, const T &v1, float t){
     return v0 + (v1 - v0) * std::max(0.f, std::min(1.f, t));
