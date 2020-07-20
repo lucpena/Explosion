@@ -1,5 +1,5 @@
 # Explosion
-A small Ray marching in C++. I made this following the awesome tutorial of [Computer Graphics from 'ssloy'](https://github.com/ssloy/tinykaboom/wiki).
+A small Ray marching in C++. I made this following the awesome tutorial of [Computer Graphics from 'ssloy'](https://github.com/ssloy/tinykaboom/wiki). It creates an explosion using Perlin Noise.
 
 # Screenshots
 
