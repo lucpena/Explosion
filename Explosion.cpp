@@ -88,8 +88,6 @@ float signed_distance(const Vec3f &p){
     //Vec3f s = Vec3f(p).normalize(sphere_radius);
     //float displacement = sin(16 * s.x) * sin(16 * s.y) * sin(16 * s.z) * noise_amplitude;
 
-    //float displacement = sin(16 * p.x) * sin(16 * p.y) * sin(16 * p.z) * noise_amplitude;
-    
     float displacement = -fractal_brownian_motion(p * 3.4) * noise_amplitude;
     return p.norm() - (sphere_radius + displacement);
 }
